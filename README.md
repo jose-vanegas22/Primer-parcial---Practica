@@ -12,8 +12,9 @@ Las instrucciones DDL para crear las tablas y DML para poblarlas con datos de pr
 -Imagen oficial de pgAdmin
 
 # Despliegue con Docker
--docker run --rm -e POSTGRES_USER=ulimar -e POSTGRES_PASSWORD=ex4men_db -p 5432:5432 postgres:14 (Contenedor postgres)
--docker run --rm -e PGADMIN_DEFAULT_EMAIL=usuario@servilimar.com -e PGADMIN_DEFAULT_PASSWORD=limar#123 -p 5050:80 dpage/pgadmin4 (Contenedor pgadmin)
+docker run --rm -e POSTGRES_USER=ulimar -e POSTGRES_PASSWORD=ex4men_db -p 5432:5432 postgres:14 (Contenedor postgres)
+
+docker run --rm -e PGADMIN_DEFAULT_EMAIL=usuario@servilimar.com -e PGADMIN_DEFAULT_PASSWORD=limar#123 -p 5050:80 dpage/pgadmin4 (Contenedor pgadmin)
 
 # Creacion de la base de datos
 CREATE DATABASE servilimar;
