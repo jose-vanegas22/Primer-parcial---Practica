@@ -32,5 +32,8 @@ psql -U ulimar -d servilimar -f dml/datos.sql
 ### Modelo Relacional
 ![Modelo REL](RELACION.png)
 
+## Video Explicativo
+https://drive.google.com/file/d/1g28AkT7TRmC3lwa0tkhQjTT-ud52xSeG/view?usp=sharing
+
 ## Autor
 Jose Vanegas
