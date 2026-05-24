@@ -22,5 +22,10 @@ CREATE DATABASE servilimar;
 psql -U ulimar -d servilimar -f ddl/estructura.sql
 psql -U ulimar -d servilimar -f dml/datos.sql
 
+## Diagramas
+
+### Modelo Relacional
+![Modelo REL](RELACION.png)
+
 ## Autor
 Jose Vanegas
