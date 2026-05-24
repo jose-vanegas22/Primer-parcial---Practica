@@ -21,6 +21,7 @@ CREATE DATABASE servilimar;
 
 # Instrucciones DDL y DML
 psql -U ulimar -d servilimar -f ddl/estructura.sql
+
 psql -U ulimar -d servilimar -f dml/datos.sql
 
 ## Diagramas
