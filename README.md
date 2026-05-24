@@ -26,6 +26,9 @@ psql -U ulimar -d servilimar -f dml/datos.sql
 
 ## Diagramas
 
+### Modelo Entidad Relacion
+![Modelo ER](ER.png)
+
 ### Modelo Relacional
 ![Modelo REL](RELACION.png)
 
